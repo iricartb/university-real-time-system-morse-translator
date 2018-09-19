@@ -26,5 +26,3 @@ void speaker_disable() {
    system_control = in8(kbd + 1);
    out8(kbd + 1, system_control & 0xfc);    
 }
-
-
